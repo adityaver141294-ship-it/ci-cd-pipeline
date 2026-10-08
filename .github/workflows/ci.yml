@@ -1,10 +1,9 @@
 name: My First GitHub Actions Workflow
-on:
- push:
+'on':
+  push: null
 jobs:
- hello:
- runs-on: ubuntu-latest
- steps:
- - name: Say Hello
- run: echo "Hello from GitHub Actions" 
-
+  hello: null
+  runs-on: ubuntu-latest
+  steps:
+    - name: Say Hello
+  run: echo "Hello from GitHub Actions"
