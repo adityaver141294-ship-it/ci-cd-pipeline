@@ -1,18 +1,14 @@
-name: Day 1 - First GitHub Actions Workflow
-
+name: Day 1 Multi-Step Demo
 on:
-  push:
-
+ push:
 jobs:
   hello:
     runs-on: ubuntu-latest
-
     steps:
       - name: Say Hello
         run: echo "Hello from GitHub Actions"
-
       - name: Show Current Directory
         run: pwd
-
       - name: List Files
         run: ls -la
+
